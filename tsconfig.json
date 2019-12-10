@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "jsx": "react",
+    "sourceMap": true,
+    "allowJs": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "node_modules/web-ext-types"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+   ]
+}

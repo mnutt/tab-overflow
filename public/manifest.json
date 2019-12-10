@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Tab Overflow",
+  "version": "0.0.1",
+  "author": "Unknown",
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "background": {
+    "scripts": [
+      "js/overflow-background-script.js"
+    ],
+    "persistent": true
+  },
+
+  "browser_action": {
+    "default_icon": "icon-16.png",
+    "default_title": "Open Tab Overflow"
+  },
+
+  "permissions": [
+    "tabs",
+    "bookmarks"
+  ],
+
+  "web_accessible_resources": [
+    "media/*"
+  ]
+}

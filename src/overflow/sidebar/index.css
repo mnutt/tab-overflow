@@ -1,0 +1,60 @@
+html {
+  font-family: sans-serif;
+}
+
+.Sidebar {
+  padding: 8px;
+}
+
+.TabGroup {
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+.TabGroup .meta {
+  display: flex;
+  border-bottom: 1px solid #000;
+}
+
+.Tab {
+  line-height: 1.8em;
+  display: flex;
+  margin-bottom: 2px;
+}
+
+.Tab .title, .TabGroup .title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+}
+
+.Tab:hover {
+  background-color: #BBEEFF;
+}
+
+.favicon {
+  position: relative;
+  top: 4px;
+  max-width: 18px;
+  max-height: 18px;
+  margin-right: 0.2em;
+}
+
+.Tab button {
+}
+
+.Popup:hover {
+    cursor: pointer;
+}
+
+.close {
+  border: 0;
+  font-size: 1.7em;
+}
+
+.bookmark {
+  margin: 5px 1em 5px 5px;
+  border: 0;
+  background: none;
+}
