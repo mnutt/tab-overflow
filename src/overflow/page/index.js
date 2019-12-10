@@ -4,7 +4,7 @@ import TabGroup from './tab-group';
 import fetchTabs from './fetch-tabs';
 import './index.css';
 
-const Sidebar = () => {
+const Page = () => {
   const [tabGroups, setTabGroups] = useState([]);
 
   useEffect(() => {
@@ -26,7 +26,7 @@ const Sidebar = () => {
   }, []);
 
   return (
-    <div className="Sidebar">
+    <div className="Page">
       <div className="description">
         {Object.values(tabGroups).reduce((a, b) => a += b.tabs.length, 0)} tabs
       </div>
@@ -39,4 +39,4 @@ const Sidebar = () => {
   );
 };
 
-ReactDOM.render(<Sidebar />, document.querySelector('main'));
+ReactDOM.render(<Page />, document.querySelector('main'));

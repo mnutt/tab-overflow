@@ -31,7 +31,7 @@ const Tab = (data) => {
       <div className="Tab">
         <button className="bookmark" onClick={() => createBookmark(tab)}><span role="img" aria-label="bookmark">&#x1f516;</span></button>
           <div onClick={() => focusTab(tab)} className="title" title={tab.title}>
-          <img alt="favicon" src={tab.favIconUrl} className="favicon" />
+          <img alt="" src={tab.favIconUrl} className="favicon" />
           {tab.title}
         </div>
         <button className="close" onClick={() => removeTab(tab)}>&times;</button>

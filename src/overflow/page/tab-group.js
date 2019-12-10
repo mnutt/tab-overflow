@@ -16,7 +16,7 @@ const TabGroup = ({ domain, tabs }) => {
       <div className="TabGroup">
         <div className="meta">
           <div className="title domain">
-            <img alt="favicon" src={tabs[0].favIconUrl} className="favicon" />
+            <img alt="" src={tabs[0].favIconUrl} className="favicon" />
             {domain}
             ({tabs.length})
           </div>

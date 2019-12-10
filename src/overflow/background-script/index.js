@@ -6,7 +6,7 @@ window.addEventListener('hot-update-message', (e) => {
 
 function handleClick() {
   let createData = {
-    url: "overflow-sidebar.html",
+    url: "overflow-page.html",
   };
 
   browser.tabs.create(createData);
