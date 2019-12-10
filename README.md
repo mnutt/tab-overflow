@@ -1,7 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+# Tab Overflow
 
-Below you will find some information on how to perform common tasks.<br>
-You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+If you have _lots_ of tabs, this extension may be for you. It groups tabs by domain and lets you bookmark tabs, close tabs, and quickly close all tabs for a domain.
 
 ## Table of Contents
 
