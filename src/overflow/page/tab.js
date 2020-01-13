@@ -25,7 +25,6 @@ function createBookmark(tab) {
 
 const Tab = (data) => {
   const tab = data.value;
-  console.log("rendering tab");
 
   return (
       <div className="Tab">

@@ -5,7 +5,7 @@ function groupBy(xs, key) {
   }, {});
 };
 
-export default async function fetchTabs(setTabGroups) {
+export default async function fetchTabs(setTabGroups, searchTerm) {
   let tabs = await browser.tabs.query({});
 
   tabs.forEach(t => {

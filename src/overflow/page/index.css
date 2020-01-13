@@ -58,3 +58,15 @@ html {
   border: 0;
   background: none;
 }
+
+.search {
+  padding: 1em 0.5em;
+  box-sizing:
+}
+
+.search input {
+  width: 100%;
+  padding: 0.8em;
+  font-size: 1.2em;
+  box-sizing: border-box;
+}

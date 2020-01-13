@@ -18,6 +18,11 @@
     "default_title": "Open Tab Overflow"
   },
 
+  "options_ui": {
+    "page": "overflow-options.html",
+    "browser_style": true
+  },
+
   "permissions": [
     "tabs",
     "bookmarks"
