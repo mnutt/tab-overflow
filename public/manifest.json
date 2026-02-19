@@ -2,7 +2,12 @@
   "manifest_version": 2,
   "name": "Tab Overflow",
   "version": "0.0.1",
-  "author": "Unknown",
+  "author": "Michael Nutt",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tab-overflow@nutt.im"
+    }
+  },
   "icons": {
     "128": "icon-128.png"
   },
