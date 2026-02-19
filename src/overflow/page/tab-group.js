@@ -5,7 +5,7 @@ function removeTabs(tabs) {
   browser.tabs.remove(tabs.map(t => t.id));
 }
 
-const TabGroup = ({ domain, tabs }) => {
+const TabGroup = ({ domain, tabs, stickyTop }) => {
   if (tabs.length === 1) {
     const tab = tabs[0];
     return (
@@ -14,7 +14,7 @@ const TabGroup = ({ domain, tabs }) => {
   } else {
     return (
       <div className="TabGroup">
-        <div className="meta">
+        <div className="meta" style={{ top: stickyTop }}>
           <div className="title domain">
             <img alt="" src={tabs[0].favIconUrl} className="favicon" />
             {domain}
